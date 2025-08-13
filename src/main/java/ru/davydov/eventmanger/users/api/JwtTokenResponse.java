@@ -1,4 +1,4 @@
-package ru.davydov.eventmanger.location.users.api;
+package ru.davydov.eventmanger.users.api;
 
 public record JwtTokenResponse (
         String jwtToken

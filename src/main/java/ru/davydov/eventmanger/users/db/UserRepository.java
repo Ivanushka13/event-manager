@@ -1,4 +1,4 @@
-package ru.davydov.eventmanger.location.users.db;
+package ru.davydov.eventmanger.users.db;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

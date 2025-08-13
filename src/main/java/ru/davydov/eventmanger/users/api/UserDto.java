@@ -1,6 +1,6 @@
-package ru.davydov.eventmanger.location.users.api;
+package ru.davydov.eventmanger.users.api;
 
-import ru.davydov.eventmanger.location.users.domain.UserRole;
+import ru.davydov.eventmanger.users.domain.UserRole;
 
 public record UserDto (
         Long id,

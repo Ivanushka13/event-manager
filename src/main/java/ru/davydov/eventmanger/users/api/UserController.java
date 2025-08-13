@@ -1,4 +1,4 @@
-package ru.davydov.eventmanger.location.users.api;
+package ru.davydov.eventmanger.users.api;
 
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
@@ -6,10 +6,10 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import ru.davydov.eventmanger.location.users.domain.AuthenticationService;
-import ru.davydov.eventmanger.location.users.domain.User;
-import ru.davydov.eventmanger.location.users.domain.UserRegistrationService;
-import ru.davydov.eventmanger.location.users.domain.UserService;
+import ru.davydov.eventmanger.users.domain.AuthenticationService;
+import ru.davydov.eventmanger.users.domain.User;
+import ru.davydov.eventmanger.users.domain.UserRegistrationService;
+import ru.davydov.eventmanger.users.domain.UserService;
 
 @RestController
 @RequestMapping("/users")

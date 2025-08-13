@@ -1,4 +1,4 @@
-package ru.davydov.eventmanger.location.users.domain;
+package ru.davydov.eventmanger.users.domain;
 
 import jakarta.annotation.PostConstruct;
 import lombok.RequiredArgsConstructor;

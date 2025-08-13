@@ -1,4 +1,4 @@
-package ru.davydov.eventmanger.location.users.domain;
+package ru.davydov.eventmanger.users.domain;
 
 public record User(
         Long id,

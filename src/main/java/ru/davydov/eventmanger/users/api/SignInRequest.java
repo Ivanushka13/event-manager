@@ -1,4 +1,4 @@
-package ru.davydov.eventmanger.location.users.api;
+package ru.davydov.eventmanger.users.api;
 
 import jakarta.validation.constraints.NotBlank;
 

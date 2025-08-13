@@ -1,11 +1,11 @@
-package ru.davydov.eventmanger.location.users.domain;
+package ru.davydov.eventmanger.users.domain;
 
 import jakarta.persistence.EntityNotFoundException;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
-import ru.davydov.eventmanger.location.users.db.UserEntityMapper;
-import ru.davydov.eventmanger.location.users.db.UserRepository;
+import ru.davydov.eventmanger.users.db.UserEntityMapper;
+import ru.davydov.eventmanger.users.db.UserRepository;
 
 @Service
 @RequiredArgsConstructor

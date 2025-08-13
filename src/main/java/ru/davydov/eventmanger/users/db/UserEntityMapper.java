@@ -1,8 +1,8 @@
-package ru.davydov.eventmanger.location.users.db;
+package ru.davydov.eventmanger.users.db;
 
 import org.springframework.stereotype.Component;
-import ru.davydov.eventmanger.location.users.domain.User;
-import ru.davydov.eventmanger.location.users.domain.UserRole;
+import ru.davydov.eventmanger.users.domain.User;
+import ru.davydov.eventmanger.users.domain.UserRole;
 
 @Component
 public class UserEntityMapper {
