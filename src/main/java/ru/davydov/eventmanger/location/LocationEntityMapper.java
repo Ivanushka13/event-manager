@@ -1,8 +1,6 @@
-package ru.davydov.eventmanger.location.mappers;
+package ru.davydov.eventmanger.location;
 
 import org.springframework.stereotype.Component;
-import ru.davydov.eventmanger.location.Location;
-import ru.davydov.eventmanger.location.LocationEntity;
 
 @Component
 public class LocationEntityMapper {

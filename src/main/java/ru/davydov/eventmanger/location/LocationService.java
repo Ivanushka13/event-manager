@@ -3,7 +3,6 @@ package ru.davydov.eventmanger.location;
 import jakarta.persistence.EntityNotFoundException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
-import ru.davydov.eventmanger.location.mappers.LocationEntityMapper;
 
 import java.util.List;
 

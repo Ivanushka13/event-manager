@@ -2,6 +2,7 @@ package ru.davydov.eventmanger.users.domain;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.authentication.BadCredentialsException;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import ru.davydov.eventmanger.users.api.SignInRequest;
@@ -25,5 +26,13 @@ public class AuthenticationService {
         }
 
         return jwtTokenManager.generateToken(user);
+    }
+
+    public User getCurrentAuthenticatedUser() {
+        var authentication = SecurityContextHolder.getContext().getAuthentication();
+        if (authentication == null) {
+            throw new IllegalStateException("Authentication not present");
+        }
+        return (User) authentication.getPrincipal();
     }
 }
